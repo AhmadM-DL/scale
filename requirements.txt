@@ -2,3 +2,7 @@ requests
 openai
 schedule
 pytest
+fastapi
+uvicorn
+pydantic
+httpx

@@ -6,12 +6,16 @@ services:
     environment:
       - OPENAI_API_KEY=/run/secrets/openai_api_key
       - LINKEDIN_ACCESS_TOKEN=/run/secrets/linkedin_access_token
+      - APP_SECRET_KEY=/run/secrets/app_secret_key
     secrets:
       - openai_api_key
       - linkedin_access_token
+      - app_secret_key
 
 secrets:
   openai_api_key:
     file: ./secrets/openai_api_key.txt
   linkedin_access_token:
     file: ./secrets/linkedin_access_token.txt
+  app_secret_key:
+    file: ./secrets/app_secret_key.txt
