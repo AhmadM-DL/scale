@@ -1,0 +1,17 @@
+services:
+  scale-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=/run/secrets/openai_api_key
+      - LINKEDIN_ACCESS_TOKEN=/run/secrets/linkedin_access_token
+    secrets:
+      - openai_api_key
+      - linkedin_access_token
+
+secrets:
+  openai_api_key:
+    file: ./secrets/openai_api_key.txt
+  linkedin_access_token:
+    file: ./secrets/linkedin_access_token.txt
