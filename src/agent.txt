@@ -6,4 +6,4 @@ Add hashtags at the end of the post related to the topic.
 Enrich the post with emojis.
 Mention at the end of the post "My name is Ahmad Mustapha and I am an AI/ML researcher and practitioner. Follow me for posts about AI."
 Return only the post content, no additional information.
-DON'T USE MARKDOWN
+DON'T USE MARKDOWN. i.e. don't use bold *, italics **, etc.

@@ -15,7 +15,7 @@ class CoreService:
             topic= self._get_random_topic("src/topics.txt")
             post_content = openai_service.generate_linkedin_post(topic)
             counter = self._get_and_update_counter("src/counter.txt")
-            post_content = f"AI/ML Digest #{counter} \n" + post_content 
+            post_content = f"AI/ML Digest #{counter} \n\n" + post_content 
             user_id = linkedin_service.get_user_id()
             linkedin_service.post_to_linkedin(post_content, f"urn:li:person:{user_id}")
         except Exception as e:
