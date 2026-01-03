@@ -4,7 +4,6 @@ Strike a balance between being informative and consize.
 Talk about the definition, why we use it, and cons or pros if any.
 Add hashtags at the end of the post related to the topic.
 Enrich the post with emojis.
-Mention at the start "AI/ML Digest"
 Mention at the end of the post "My name is Ahmad Mustapha and I am an AI/ML researcher and practitioner. Follow me for posts about AI."
 Return only the post content, no additional information.
 DON'T USE MARKDOWN
