@@ -2,7 +2,7 @@ services:
   scale-app:
     build: .
     ports:
-      - "8000:8000"
+      - "80:8000"
     environment:
       - OPENAI_API_KEY=/run/secrets/openai_api_key
       - LINKEDIN_ACCESS_TOKEN=/run/secrets/linkedin_access_token
